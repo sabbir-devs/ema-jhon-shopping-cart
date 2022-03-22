@@ -1,0 +1,59 @@
+.single-product{
+    width: 30%;
+    height: 550px;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px -2px #000;
+    transition: 0.2s;
+}
+.single-product:hover{
+    transform: scale(1.02)
+}
+.single-product img{
+    width: 100%;
+    border-radius: 4px;
+
+}
+.single-product h3, h4{
+    font-weight: 600;
+    margin-top: 8px;
+}
+.single-product p{
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.single-product button{
+    padding: 4px 20px;
+    font-size: 14px;
+    border: 2px solid #ff990000;
+    background: #ff9900c0;
+    border-radius: 2px;
+    color: #fff;
+    transition: .1s;
+    margin-top: 20px;
+}
+.single-product button:hover{
+    color: #ff9900c0;
+    background: transparent;
+    border: 2px solid #ff9900c0;
+    text-shadow: 0 0 5px #ff9900c0;
+    box-shadow: 0 0 10px -2px #ff9900c0;
+    cursor: pointer;
+}
+
+/* ----------------------media Quary for responsive---------------------- */
+/* ----------------------media Quary for tab responsive---------------------- */
+@media only screen and (min-width: 669px) and (max-width: 998px){
+    .single-product{
+        width: 100%;
+        
+    }
+}
+/* ----------------------Media Quary for movile responsive---------------------- */
+@media only screen and (max-width: 668px){
+    .single-product{
+        width: 100%;
+        height: 500px;
+    }
+}

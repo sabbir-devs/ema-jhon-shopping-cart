@@ -1,0 +1,88 @@
+.shop{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 3%;
+    grid-row-gap: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.cart-container{
+    background: #ff9900a3;
+    right: 0;
+    top: 80px;
+    display: block;
+    padding: 20px;
+    margin-top: 19px;
+}
+.cart-container h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cart-container p{
+    margin-top: 10px;
+}
+.delete{
+    padding: 7px 15px;
+    background: red;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+.review{
+    padding: 7px 15px;
+    background: #ff9900;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+.delete:hover,
+.review:hover{
+    box-shadow: 0 0 10px -2px #000;
+}
+/* ----------------------media Quary for responsive---------------------- */
+/* ----------------------media Quary for tab responsive---------------------- */
+@media only screen and (min-width: 668px) and (max-width: 998px){
+    .products-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 20px;
+    }
+    .single-product{
+        width: 100%;
+        height:600px;
+    }
+}
+/* ----------------------Media Quary for movile responsive---------------------- */
+@media only screen and (min-width: 459px) and (max-width: 668px){
+    .products-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+    }
+    .single-product{
+        width: 100%;
+        height: 700px;
+    }
+}
+@media only screen and (max-width: 458px){
+    .products-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+    }
+    .single-product{
+        width: 100%;
+    }
+}

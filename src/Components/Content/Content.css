@@ -1,0 +1,43 @@
+.orange{
+    color: #ff9900;
+}
+.top-banner{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.half-banner{
+    width: 50%;
+    padding: 30px;
+}
+.half-banner h1{
+    font-size: 40px;
+    letter-spacing: .5px;
+    margin-top: 20px;
+}
+.half-banner p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.half-banner button{
+    padding: 8px 15px;
+    font-size: 15px;
+    color: #000;
+    background: #ff9900;
+    border: 2px solid #ff9900;
+    margin-top: 20px;
+}
+.half-banner img{
+    width: 80%;
+    box-shadow: -12px 12px 0 0 #ff9900c0;
+    border-radius: 4px;
+}
+.half-banner img:hover{
+    transform: scale(1.02);
+}
+
+
+
+
+

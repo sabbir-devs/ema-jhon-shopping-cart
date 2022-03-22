@@ -1,0 +1,32 @@
+.header{
+    height: 80px;
+    background-color: #1C2B35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.list a{
+    list-style: none;
+    text-decoration: none;
+}
+.list a li{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    list-style: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 17px;
+}
+.list a li:hover{
+    color: orange;
+}
