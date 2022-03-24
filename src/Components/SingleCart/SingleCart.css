@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.single-cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    border: 2px dashed red;
+    border-radius: 4px;
+    padding: 2px;
+
+}
+.single-cart img{
+    width: 60px;
+    height: 60px;
+}
+.single-cart button{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: red;
+    border: none;
+    font-size: 18px;
+}
